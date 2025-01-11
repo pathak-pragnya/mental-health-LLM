@@ -32,9 +32,13 @@ Baseline Model:
 The baseline evaluation of the Falcon-7B-instruct model produced the following results for ROUGE (Lin, 2004) and BLEU (Papineni et al., 2002) metrics:
 
 • ROUGE Scores:
+  
   – ROUGE-1: 0.1687
+  
   – ROUGE-2: 0.0209
+  
   – ROUGE-L: 0.1147
+  
   – ROUGE-Lsum: 0.1066
 
 • BLEU Score: 0.0069
@@ -44,9 +48,13 @@ Fine-tuned Model:
 The results of the fine-tuned model are:
 
 • ROUGE Scores:
+  
   – ROUGE-1: 0.2164
+  
   – ROUGE-2: 0.0341
+  
   – ROUGE-L: 0.1208
+  
   – ROUGE-Lsum: 0.1239
 
 • BLEU Score: 0.0135
