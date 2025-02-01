@@ -59,5 +59,10 @@ The results of the fine-tuned model are:
 
 • BLEU Score: 0.0135
 
-How to run this code:
-
+## **How to Run**
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/pathak-pragnya/mental-health-LLM
+2. **Run the script**
+    ```bash
+    python Mental_Health_Assistant.py
