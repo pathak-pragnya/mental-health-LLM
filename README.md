@@ -59,10 +59,31 @@ The results of the fine-tuned model are:
 
 • BLEU Score: 0.0135
 
-## **How to Run**
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/pathak-pragnya/mental-health-LLM
-2. **Run the script**
-    ```bash
-    python Mental_Health_Assistant.py
+# Falcon-7B Mental Health Counseling Fine-Tuning
+
+This project fine-tunes the Falcon-7B model on a dataset of mental health counseling conversations. It leverages state-of-the-art techniques such as 4-bit quantization and LoRA (Low-Rank Adaptation) for efficient training. The project is modularized into several components including data loading/preprocessing, model building, training, and evaluation.
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Project Structure](#project-structure)
+- [Installation](#installation)
+- [Usage](#usage)
+  - [Training the Model](#training-the-model)
+  - [Evaluating the Model](#evaluating-the-model)
+- [Configuration](#configuration)
+- [Troubleshooting](#troubleshooting)
+- [License](#license)
+
+## Project Structure
+
+```plaintext
+my_project/
+├── callbacks.py        # Custom training callbacks
+├── data.py             # Data loading and preprocessing functions
+├── evaluate.py         # Model evaluation code using ROUGE and BLEU metrics
+├── main.py             # Entry point that ties all components together
+├── model.py            # Model and tokenizer setup, including LoRA application
+├── train.py            # Training loop and training arguments setup
+├── requirements.txt    # List of dependencies
+└── README.md           # This file
