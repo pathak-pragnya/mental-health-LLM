@@ -1,0 +1,9 @@
+torch
+transformers
+datasets
+evaluate
+peft
+trl
+nltk
+tqdm
+matplotlib
