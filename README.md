@@ -57,7 +57,7 @@ This project fine-tunes the Falcon-7B-Instruct model to generate empathetic and 
 ## Project Structure
 
 ```plaintext
-my_project/
+mental-health-llm/
 ├── callbacks.py        # Custom training callbacks
 ├── data.py             # Data loading and preprocessing functions
 ├── evaluate.py         # Model evaluation code using ROUGE and BLEU metrics
@@ -66,24 +66,24 @@ my_project/
 ├── train.py            # Training loop and training arguments setup
 ├── requirements.txt    # List of dependencies
 └── README.md           # This file
-
+```
 
 ## Installation
 
-```
-bash
-
 # 1. Clone the repository
+```
 git clone https://github.com/pathak-pragnya/mental-health-LLM
-cd your-repo-name
-
+cd mental-health-llm
+```
 # 2. Set Up a Virtual Environment (Recommended)
+```
 python3 -m venv env
 source env/bin/activate  # On Windows: env\Scripts\activate
-
+```
 # 3. Install Dependencies
+```
 pip install -r requirements.txt
-
+```
 ## Usage
 
 # Training the Model
@@ -101,7 +101,7 @@ python main.py --output_dir ./falcon-7b-instruct-mental-health-counseling
     3. Apply LoRA adaptations.
     4. Train on the dataset.
     5. Save the fine-tuned model and generation config in the specified output_dir.
-
+```
 ## Evaluating the Model
 
 The main script also handles evaluation automatically. It computes ROUGE and BLEU metrics on the test dataset for both the baseline (Falcon-7B-Instruct) and the fine-tuned model. The results will be printed in your terminal at the end of the run.
